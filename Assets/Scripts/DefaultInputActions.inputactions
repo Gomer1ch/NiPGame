@@ -1,0 +1,54 @@
+{
+    "name": "DefaultInputActions",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "f2892de8-8658-409d-9acb-710f7c2a9015",
+            "actions": [
+                {
+                    "name": "ThrowTouch",
+                    "type": "Value",
+                    "id": "514fc2a0-5a9b-4388-8f80-cdd87656119e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Point",
+                    "type": "Button",
+                    "id": "dfa24fd1-e1fd-45ef-b306-739b72fe0258",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "14449cf1-4d09-43e1-9ce5-3e30e8cc1644",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrowTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "843a04fc-f3c9-44e6-b450-6a93a941a2bf",
+                    "path": "<Touchscreen>/touch*/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
